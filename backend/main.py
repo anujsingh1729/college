@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://anuj1729-collegeedge-frontend.hf.space",
+        "https://college-9yqe.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
