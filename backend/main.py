@@ -16,6 +16,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://college-9yqe.vercel.app/",
+        "https://college-9yqe-git-main-anujsingh1729s-projects.vercel.app/",
+        "https://college-9yqe-olz2aess6-anujsingh1729s-projects.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
