@@ -33,7 +33,7 @@ export default function Profile() {
         career_goals: form.career_goals,
       };
 
-      const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:8001";
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || "https://comfortable-forgiveness-production.up.railway.app";
       const res = await axios.post(`${backendUrl}/generate-plan`, payload);
       const plan = res.data;
 
